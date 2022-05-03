@@ -146,14 +146,20 @@
 
     /* nav header */   
         
-.header .nav_encabezado ul{
+/* .header .nav_encabezado ul{
     display: flex;
     gap: 2em;
     justify-content: space-between;  
     height: fit-content; 
     margin-right: 2em;
     align-items: flex-end ;
-    }           
+    }            */
+.nav p {
+    color: aliceblue;
+}   
+.nav i{
+    color: aliceblue;
+} 
 
 .nav_encabezado h3{
     color:white;
@@ -501,7 +507,9 @@ height: fit-content;
         .aside h2{
             font-size: 16px;
             background-color:  rgba(155, 159, 158, 0);
-          } 
+          }
+        .nav_encabezado1{
+            display: none;   
                  
         
         }
@@ -526,7 +534,11 @@ height: fit-content;
           
             .header{
                 flex-direction: column;
-            }  
+            } 
+            
+            .nav_encabezado1{
+                display: none;
+            }
             }
 
         
