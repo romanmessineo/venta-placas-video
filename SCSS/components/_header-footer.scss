@@ -1,0 +1,35 @@
+.header{
+    grid-area: header;
+    background-image: url("/imagenes/capafondo.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* grid-column: 1 / -1; */
+    border: solid 1px rgba(0, 0, 0, 0.418);
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 0px;
+    height: fit-content;
+    padding:0.5em;
+    margin-bottom: 16px;
+    }
+
+    .footer {
+        grid-area: footer;
+        background-image: url("/imagenes/capafondo.png");
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* grid-column: 1 / -1; */
+        border: solid 1px rgba(0, 0, 0, 0.418);
+        text-shadow: 2px 2px 4px #000000;
+        border-radius: 0px;
+        height: fit-content;
+        padding:0.5em;
+        margin-bottom: 2px;
+        padding-bottom: 32px;
+        margin-top: 16px;
+        }    
