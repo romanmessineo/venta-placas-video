@@ -1,0 +1,29 @@
+.contenedor > *{  
+    box-shadow: -1px 1px 7px 0px black;   
+    border-radius: 4px;
+    padding: 1.25em; 
+    text-align: center;
+    margin: 0.5em;
+    height: auto;
+    }   
+
+
+ /*  Grids */  
+
+.contenedor{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+     grid-template-rows:  0fr  0fr  0fr 0fr; 
+    justify-content: center;
+    }  
+
+.contenedor{
+    grid-template-areas: 
+    "header header header header"
+    "productos productos  productos aside"
+    "ofertas ofertas ofertas aside"
+    "noticias noticias noticias aside"
+    "footer footer footer footer"
+    } 
+
+           

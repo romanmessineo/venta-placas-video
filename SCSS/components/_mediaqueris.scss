@@ -1,0 +1,82 @@
+@media (max-width: 1050px){
+    .productos{
+        flex-direction: column;
+        margin-left: 1em; 
+        }       
+            
+    .ofertas{
+        margin-left: 1em;
+        } 
+        
+    .noticias{
+        margin-left: 1em; 
+        display: inline-block;
+        }   
+        
+    .aside{
+        margin-right: 1em;
+        }  
+
+}
+
+@media (max-width: 850px){
+    .contenedor{
+      display: grid;
+      grid-template-columns:  1fr 1fr 1fr;
+      justify-content: center;
+      }  
+
+  .contenedor{
+      grid-template-areas: 
+      "header header header"
+      "productos productos productos"
+      "ofertas ofertas ofertas "
+      "noticias noticias noticias "
+      "aside aside aside"
+      "footer footer footer ";
+  }
+  .aside{
+      flex-direction: row;
+      margin-right: auto;
+      overflow: hidden;
+      overflow-x: scroll;
+      }   
+
+              
+      .aside h2{
+          font-size: 16px;
+          background-color:  rgba(155, 159, 158, 0);
+        }
+      .nav_encabezado1{
+          display: none;   
+               
+      
+      }
+      }
+
+      @media (max-width: 450px){
+              .contenedor{
+              display: grid;
+              grid-template-columns:  1fr 1fr;
+              justify-content: center;
+              }  
+      
+          .contenedor{
+              grid-template-areas: 
+              "header header"
+              "productos productos"
+              "ofertas ofertas"
+              "noticias noticias"
+              "aside    aside"
+              "footer  footer";
+          }
+          
+        
+          .header{
+              flex-direction: column;
+          } 
+          
+          .nav_encabezado1{
+              display: none;
+          }
+          }           
