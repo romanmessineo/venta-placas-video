@@ -1,6 +1,11 @@
+$color1: rgb(66, 170, 144);
+$color2: rgb(159, 156, 155); 
+$color3: rgb(58, 62, 65);
+
+
 .productos{
     grid-area: productos;
-    background-color: rgb(155, 159, 158);
+    background-color: $color1;
     display: flex;
     flex-direction: column;
     margin-left: 4em; 
@@ -8,28 +13,25 @@
     } 
     .ofertas{
         grid-area: ofertas;
-        background-color: rgb(155, 159, 158);
+        background-color: $color2;
         align-items: center;
         margin-left: 4em;
         border: 1px solid rgba(0, 0, 0, 0.296);
         }  
         .noticias{
             grid-area: noticias;
-            background-color: rgb(58, 62, 65);
+            background-color: $color3;
             display: flex;
             grid-column: 4/1;
-            margin-left: 4em; 
             display: inline-block;
             border: 1px solid rgba(0, 0, 0, 0.296);
             }   
             
         .aside{
             grid-area: aside;
-            background-color: rgb(72, 73, 71);
+            background-color: $color3;
             display: flex;
             flex-direction: column;
-            /* grid-row: 2/5; */
-            margin-right: 4em;
             }  
             
             

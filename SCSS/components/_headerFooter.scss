@@ -1,11 +1,12 @@
+$background-image: url("/imagenes/capafondo.png") ;
+
 .header{
     grid-area: header;
-    background-image: url("/imagenes/capafondo.png");
+    background-image: $background-image;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    /* grid-column: 1 / -1; */
     border: solid 1px rgba(0, 0, 0, 0.418);
     text-shadow: 2px 2px 4px #000000;
     border-radius: 0px;
@@ -16,14 +17,13 @@
 
     .footer {
         grid-area: footer;
-        background-image: url("/imagenes/capafondo.png");
+        background-image: $background-image;
         background-size: cover;
         display: flex;
         justify-content: space-between;
         align-items:center;
         flex-direction: row;
         flex-wrap: wrap;
-        /* grid-column: 1 / -1; */
         border: solid 1px rgba(0, 0, 0, 0.418);
         text-shadow: 2px 2px 4px #000000;
         border-radius: 0px;
@@ -56,15 +56,7 @@
             }          
         
             /* nav header */   
-                
-        /* .header .nav_encabezado ul{
-            display: flex;
-            gap: 2em;
-            justify-content: space-between;  
-            height: fit-content; 
-            margin-right: 2em;
-            align-items: flex-end ;
-            }            */
+       
         .nav p {
             color: aliceblue;
         }   
