@@ -2,7 +2,7 @@ $background-image: url("/imagenes/capafondo.png") ;
 
 .header{
     grid-area: header;
-    background-image: $background-image;
+    background-image: url("/imagenes/capafondo.png");
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ $background-image: url("/imagenes/capafondo.png") ;
 
     .footer {
         grid-area: footer;
-        background-image: $background-image;
+        background-image: url("/imagenes/capafondo.png");
         background-size: cover;
         display: flex;
         justify-content: space-between;
