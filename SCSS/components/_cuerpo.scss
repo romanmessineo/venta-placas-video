@@ -51,6 +51,7 @@ $color3: rgb(58, 62, 65);
     display: flex;
     justify-content:center;
     gap: 10px;
+    padding-left: 0;
     }
 
 .productos .productos__nav img{
@@ -86,7 +87,13 @@ $color3: rgb(58, 62, 65);
 .slider::-webkit-scrollbar {
     width: 2em;
   } 
-    
+
+  /* imagenes de los productos */
+  .izquierda{
+    width: 100%;
+    padding: 10px;
+  }
+    /* fin imagenes productos */
 .slider::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: aliceblue;
@@ -188,8 +195,7 @@ $color3: rgb(58, 62, 65);
     border-radius: 5px;
     padding: 10px;
     overflow: hidden;
-    overflow-y: scroll;
-    
+    overflow-y: scroll;       
 }
 
 .aside img{
