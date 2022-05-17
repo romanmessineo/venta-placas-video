@@ -20,7 +20,7 @@ $mensaje="
 
 mail($destinatario, $sunto, utf8_decode($mensaje), $header));
 
-header("location:index.html");
+header("location:Contacto.html");
  
 
 ?>

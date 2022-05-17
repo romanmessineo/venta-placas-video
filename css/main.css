@@ -12,7 +12,7 @@
 
 .header {
   grid-area: header;
-  background-color: #02054f;
+  background-color: #004794;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +24,7 @@
 
 .footer {
   grid-area: footer;
-  background-color: #02054f;
+  background-color: #004794;
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -311,7 +311,7 @@
 .contenedor {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0fr  0fr  0fr 0fr 0fr;
+  grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
   justify-content: center; }
 
 .contenedor {
@@ -356,14 +356,14 @@
     display: none; }
   .productos {
     flex-direction: column;
-    margin-left: 0,5em; }
+    margin-left: 0, 5em; }
   .ofertas {
-    margin-left: 0,5em; }
+    margin-left: 0, 5em; }
   .noticias {
-    margin-left: 0,5em;
+    margin-left: 0, 5em;
     display: inline-block; }
   .aside {
-    margin-left: 0,5em; } }
+    margin-left: 0, 5em; } }
 
 @media (max-width: 450px) {
   .contenedor {
@@ -375,7 +375,9 @@
   .header {
     flex-direction: column; }
   .nav_encabezado1 {
-    display: none; } }
+    display: none; }
+  .logo {
+    width: 100%; } }
 
 /*formulario de contacto*/
 .formulario {
@@ -396,7 +398,8 @@ form h2 {
   text-align: center;
   margin-bottom: 5px; }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -424,7 +427,8 @@ button {
 .mapa {
   border: 1px solid black; }
 
-.mapa, p {
+.mapa,
+p {
   color: black;
   text-align: center;
   margin-bottom: 10px;

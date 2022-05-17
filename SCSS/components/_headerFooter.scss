@@ -2,7 +2,7 @@ $background-image: url("/imagenes/capafondo.png");
 
 .header {
   grid-area: header;
-  background-color: rgb(2, 5, 79);
+  background-color: #004794;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,7 @@ $background-image: url("/imagenes/capafondo.png");
 
 .footer {
   grid-area: footer;
-  background-color: rgb(2, 5, 79);
+  background-color: #004794;
   background-size: cover;
   display: flex;
   justify-content: space-between;
