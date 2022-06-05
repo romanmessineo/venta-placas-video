@@ -8,7 +8,8 @@
   box-sizing: border-box; }
 
 .body {
-  padding-top: 1px; }
+  padding-top: 1px;
+  background-color: #AAC0CF; }
 
 .header {
   grid-area: header;
@@ -134,10 +135,10 @@
 .productos h1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  text-align: left;
   margin-left: 30%;
   padding-bottom: 1em;
-  font-size: 24px; }
+  font-size: 24px;
+  align-self: flex-start; }
 
 .productos__nav ul {
   align-self: auto;
@@ -190,19 +191,17 @@
     background-color: #9f9c9b;
     border-radius: 5px;
     width: 90%; }
-  .productos img {
-    max-width: fit-content;
-    border-radius: 20px; }
   .productos p {
     background-color: white;
     padding: 6%;
     margin: 0px 10px 0px 10px;
     border-radius: 5px;
     text-align: left;
-    font-weight: lighter; }
-    .productos p b {
-      margin-left: 40px;
-      font-weight: bold; }
+    font-weight: lighter;
+    border: solid 1px; }
+  .productos img {
+    max-width: fit-content;
+    border-radius: 20px; }
 
 /* fin imagenes productos */
 .slider::-webkit-scrollbar-track {
@@ -268,13 +267,13 @@
 .menunoticias iframe:hover {
   transform: scale(103%); }
 
-/* noticias aside */
+/* ofertas aside */
 .aside {
   display: flex;
   gap: 10px;
   padding: 10px; }
 
-.aside h2 {
+.titulo h2 {
   border: 1px solid black;
   color: white;
   text-shadow: 2px 2px 4px #000000;
